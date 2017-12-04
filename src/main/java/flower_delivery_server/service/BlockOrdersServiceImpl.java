@@ -52,6 +52,7 @@ public class BlockOrdersServiceImpl implements BlockOrdersService {
 
         block.setOrderList(orderList);
         return block;
+//        return blockOrdersRepository.saveAndFlush(blockOrders);
     }
 
     @Override
